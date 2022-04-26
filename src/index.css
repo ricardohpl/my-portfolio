@@ -1,0 +1,35 @@
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* changes to body and force overflw-x to not broke the layout */
+body {
+  font-family: 'Roboto', 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+
+/* changes for chrome scrollbar to fix the two overlapping scroll bars */
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(169, 169, 169, 0.4);  
+} 
+*::-webkit-scrollbar-thumb {   
+  background-color: rgba(38, 69, 94, 0.5);  
+  border-radius: 10px;
+}
+
+/* change for firefox scrollbar to fix the two overlapping scroll bars */
+:root{
+  scrollbar-color:  rgba(38, 69, 94, 0.6) rgba(139, 139, 139, 0.2) !important;
+  scrollbar-width: thin !important;
+}
+
