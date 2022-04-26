@@ -28,13 +28,13 @@ const Social = (props) => {
                 flexDir={props.flexDirSocial}
             >
 
-                <Link href='https://www.linkedin.com/in/ricardo-pereira-71b59624' target='blank'>
-                    <Icon as={IoLogoLinkedin} marginY={2} marginX={5} onClick={() => props.clickMenu()} _hover={{ opacity: '0.8' }} ></Icon>
+                <Link href='https://www.linkedin.com/in/ricardo-pereira-71b59624' target='blank' _focus={{outline: 'none'}} >
+                    <Icon as={IoLogoLinkedin} marginY={2} marginX={5} onClick={() => props.clickMenu()} _hover={{ opacity: '0.8' }}  ></Icon>
                 </Link>
-                <Link href='https://www.instagram.com/ricardohpl/' target='blank'>
+                <Link href='https://www.instagram.com/ricardohpl/' target='blank' _focus={{outline: 'none'}} >
                     <Icon as={IoLogoInstagram} marginY={2} marginX={5} onClick={() => props.clickMenu()} _hover={{ opacity: '0.8' }}></Icon>
                 </Link>
-                <Link href='https://twitter.com/oPereiraaa' target='blank'>
+                <Link href='https://twitter.com/oPereiraaa' target='blank' _focus={{outline: 'none'}}>
                     <Icon as={IoLogoTwitter} marginY={2} marginX={5} onClick={() => props.clickMenu()} _hover={{ opacity: '0.8' }}></Icon>
                 </Link>
             </Flex>

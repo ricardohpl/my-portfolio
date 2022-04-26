@@ -23,6 +23,7 @@ const ProjectsContainer = (props) => {
             <Link 
                 href={props.href} target='blank'
                 _hover={{ outline: 'none' }}
+                _focus={{outline: 'none'}}
             >
                 <Img src={props.srcImage} w='45vw' minW='200px'></Img>
                 <Text fontSize={['xs', 'sm', 'md']}>Click para visualizar e navegar pelo site</Text>

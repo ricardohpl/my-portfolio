@@ -45,15 +45,16 @@ const Projects = () => {
                     <Text marginY={3}>- Meu portfólio para divulgar meus trabalhos realizados e ajudar na busca de novos desafios. </Text>
                     <Text>Desenvolvi todo o frontend com responsividade utilizando React.js, Chakra UI e Framer Motion.</Text>
                     <Link 
-                        href='https://github.com/ricardohpl/contagem_regressiva' target='blank'
+                        href='https://github.com/ricardohpl/my-portfolio' target='blank'
                         _hover={{outline: 'none'}}
+                        _focus={{outline: 'none'}}
                         maxWidth={['130px', '150px', '180px']}
                         marginX={5}
                     >
                         <Box
                             color='lightgray'
                             marginY={5}
-                            padding={1, 1, 2}
+                            padding={[1, 1, 2]}
                             borderRadius='5px'
                             textAlign='center'
                             border=  '1px solid lightgray'

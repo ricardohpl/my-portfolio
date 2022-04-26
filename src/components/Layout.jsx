@@ -20,7 +20,7 @@ const Layout = (props) => {
             templateRows={'1fr'}
             minH='720px'
             w='100vw'
-            backgroundImage={process.env.PUBLIC_URL + `/assets/img/pexels-hasan-albari-1229861.jpg`}
+            backgroundImage={process.env.PUBLIC_URL + `/assets/img/pexels-hasan-albari-3000x2000.jpg`}
             backgroundSize='cover'
             backgroundPosition='center'
             backgroundRepeat='no-repeat'
