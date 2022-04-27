@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 // import { } from "@chakra-ui/react"
 
@@ -9,7 +9,7 @@ import NavRouter from "./components/NavRouter";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
         <NavRouter />
     </Router>
   );

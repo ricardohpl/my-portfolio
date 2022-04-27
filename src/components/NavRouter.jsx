@@ -18,24 +18,24 @@ const NavRouter = () => {
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>
         <Route
-          exact path="/"
+          path=""
           element={<Layout href='/' name='Home' pageBack={false}><Home /></Layout>}
         />
         <Route
-          exact path="about"
-          element={<Layout name='Sobre' href='about' pageBack={true}><About /></Layout>}
+          path="/about"
+          element={<Layout name='Sobre' href='#/about' pageBack={true}><About /></Layout>}
         />
         <Route
-          exact path="skills"
-          element={<Layout name='Skills' href='skills' pageBack={true}><Skills /></Layout>}
+          path="/skills"
+          element={<Layout name='Skills' href='#/skills' pageBack={true}><Skills /></Layout>}
         />
         <Route
-          exact path="projects"
-          element={<Layout name='Portfólio' href='projects' pageBack={true}><Projects /></Layout>}
+          path="/projects"
+          element={<Layout name='Portfólio' href='#/projects' pageBack={true}><Projects /></Layout>}
         />
         <Route
-          exact path="contacts"
-          element={<Layout name='Contatos' href='contacts' pageBack={true}><Contacts /></Layout>}
+          path="/contacts"
+          element={<Layout name='Contatos' href='#/contacts' pageBack={true}><Contacts /></Layout>}
         />
       </Routes>
     </AnimatePresence>
